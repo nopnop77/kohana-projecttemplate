@@ -106,7 +106,7 @@ return array(
 	'modules/kostache' => array(
 		'path'       => MODPATH.'kostache',
 		'fetch_from' => 'https://github.com/zombor/KOstache.git',
-		'push_to'    => 'git://github.com/synapsestudios/kohana-kostache.git',
+		'push_to'    => 'git@github.com:synapsestudios/kohana-kostache.git',
 		'checkout'   => 'origin/master',
 	),
 );
