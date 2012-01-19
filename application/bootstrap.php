@@ -154,8 +154,3 @@ if ($routes = Kohana::find_file('routes', Kohana::$environment))
 {
 	include $routes;
 }
-
-/**
- * Enable modules. Modules are referenced by a relative or absolute path.
- */
-Kohana::modules(Kohana::$config->load('modules')->as_array());
