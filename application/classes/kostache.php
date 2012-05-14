@@ -10,8 +10,4 @@ class Kostache extends Kohana_Kostache
 	 */
 	public function _initialize() {}
 
-	public function app_version()
-	{
-		return Kohana::APP_VERSION;
-	}
 }
