@@ -1,0 +1,1 @@
+// This is a place holder file, because we don't actually want to include jquery in our project.
