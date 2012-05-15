@@ -1,0 +1,16 @@
+web1:
+  name: site
+  document_root: /httpdocs
+  shared_writable_dirs:
+    - /application/cache
+    - /application/logs
+  php_extensions:
+    - mbstring
+    - mysql
+    - curl
+    - mcrypt
+    - gd
+    - memcache
+    - eaccelerator
+  php_display_errors: 1
+  php_date_timezone: America/Phoenix
