@@ -4,10 +4,11 @@ abstract class Abstract_View_Page extends Abstract_View_Layout {
 
 	public $title = 'Page';
 
-	public function assets($assets)
+	public function _initialize()
 	{
-		$assets->group('default-template');
-		return parent::assets($assets);
+		parent::_initialize();
+
+		$this->_assets->group('default-template');
 	}
 
 	public function js_array()
@@ -15,7 +16,7 @@ abstract class Abstract_View_Page extends Abstract_View_Layout {
 		return array(
 			'base_url'    => URL::base(),
 			'environment' => Kohana::$environment_string,
-			'media_url'   => Media::url('/'),
+			'media_url'   => Media::url(NULL),
 		);
 	}
 
@@ -44,8 +45,7 @@ abstract class Abstract_View_Page extends Abstract_View_Layout {
 		foreach (Notices::get() as $array)
 		{
 			$message_path = $array['type'].'.'.$array['key'];
-			$data[] = array
-			(
+			$data[] = array(
 				'type'     => $array['type'],
 				'key'      => $array['key'],
 				'message'  => Kohana::message('notices', $message_path, $message_path),
@@ -92,12 +92,10 @@ abstract class Abstract_View_Page extends Abstract_View_Layout {
 	{
 		$content = parent::render($template, $view, $partials);
 
-		return str_replace(array
-		(
+		return str_replace(array(
 			'[[assets_head]]',
 			'[[assets_body]]'
-		), array
-		(
+		), array(
 			$this->assets_head(),
 			$this->assets_body()
 		), $content);
