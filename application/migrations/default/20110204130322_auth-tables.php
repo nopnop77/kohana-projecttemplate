@@ -3,14 +3,14 @@
 /**
  * auth tables
  */
-class Migration_Auth_20110204130322 extends Minion_Migration_Base {
+class Migration_Default_20110204130322 extends Minion_Migration_Base {
 
 	/**
 	 * Run queries needed to apply this migration
 	 *
-	 * @param Kohana_Database Database connection
+	 * @param Database Database connection
 	 */
-	public function up(Kohana_Database $db)
+	public function up(Database $db)
 	{
 		$db->query(NULL, '
 			CREATE TABLE IF NOT EXISTS `roles` (
@@ -65,9 +65,9 @@ class Migration_Auth_20110204130322 extends Minion_Migration_Base {
 	/**
 	 * Run queries needed to remove this migration
 	 *
-	 * @param Kohana_Database Database connection
+	 * @param Database Database connection
 	 */
-	public function down(Kohana_Database $db)
+	public function down(Database $db)
 	{
 		$db->query(NULL, 'DROP TABLE pvt_roles_users');
 		$db->query(NULL, 'DROP TABLE roles');
