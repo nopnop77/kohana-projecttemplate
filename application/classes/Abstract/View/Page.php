@@ -15,7 +15,7 @@ abstract class Abstract_View_Page extends Abstract_View_Layout {
 		return array(
 			'base_url'    => URL::base(),
 			'environment' => Kohana::$environment_string,
-			'media_url'   => Media::url('/'),
+			'media_url'   => Media::url(NULL),
 		);
 	}
 

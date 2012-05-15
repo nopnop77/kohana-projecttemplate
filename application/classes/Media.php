@@ -2,10 +2,13 @@
 
 class Media {
 
-	public static function url($filepath)
+	public static function url($filepath, $cachebusting = TRUE)
 	{
+		if ( ! $filepath)
+			return URL::base().'media/';
+
 		// Only allow caching on production
-		$cachebusting = in_array(Kohana::$environment, array(Kohana::PRODUCTION, KOHANA::STAGING)) ? microtime(true) : KOHANA::APP_VERSION;
+		$cachebusting = in_array(Kohana::$environment, array(Kohana::PRODUCTION, KOHANA::STAGING)) ? KOHANA::APP_VERSION : microtime(true);
 
 		return URL::base().'media/'.$filepath.'?'.$cachebusting;
 	}
