@@ -1,4 +1,4 @@
-<?php defined('SYSPATH') or die('No direct script access.');
+<?php defined('SYSPATH') OR die('No direct script access.');
 
 $js_app_file = Kohana::$environment === Kohana::DEVELOPMENT
 	? 'js/app/compiled/app.js'
