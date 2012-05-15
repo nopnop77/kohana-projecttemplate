@@ -40,3 +40,6 @@
 [submodule "httpdocs/media/3rdparty/twitter-bootstrap"]
 	path = httpdocs/media/3rdparty/twitter-bootstrap
 	url = git://github.com/vwall/compass-twitter-bootstrap.git
+[submodule "modules/acl"]
+	path = modules/acl
+	url = git@github.com:synapsestudios/kohana-acl.git
