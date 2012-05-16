@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct script access.');
 
-class YForm extends Yuriko_YForm
+class Synform extends Synapse_Synform
 {
 	public function open($action = NULL, array $attributes = array())
 	{

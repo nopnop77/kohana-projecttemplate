@@ -8,5 +8,5 @@
  */
 abstract class Abstract_View_Email extends Abstract_View_Layout
 {
-	protected $_layout = 'layout/email';
+	protected $_layout = 'layout/base';
 }

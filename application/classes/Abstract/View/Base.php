@@ -8,22 +8,14 @@
  */
 abstract class Abstract_View_Base extends Kostache_Layout
 {
-	/**
-	 * Assets object to add css/js groups to
-	 */
+	protected $_layout = 'layout/default';
 	protected $_assets;
 
-	/**
-	 * Gets or sets the Assets object in the view
-	 *
-	 * @param  Object the Assets object
-	 * @return this
-	 */
-	public function assets($assets)
+	public function __construct($template = NULL, array $partials = NULL)
 	{
-		$this->_assets = $assets;
+		parent::__construct($template, $partials);
 
-		return $this;
+		$this->_assets = new Assets;
 	}
 
 	/**
@@ -42,20 +34,4 @@ abstract class Abstract_View_Base extends Kostache_Layout
 		return strtolower(substr($class, 5));
 	}
 
-	/**
-	 * Lambda function to alternate between a set of strings
-	 *
-	 * // This will alternate between 'one', 'two', 'three', and 'four'
-	 * {{#alternate}}one|two|three|four{{/alternate}}
-	 *
-	 * @param   string a pipe-separated list of strings
-	 * @return  string
-	 */
-	public function alternate()
-	{
-		return function($string)
-		{
-			return call_user_func_array('Text::alternate', explode('|', $string));
-		};
-	}
 }

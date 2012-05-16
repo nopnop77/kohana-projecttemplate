@@ -18,28 +18,28 @@
 	url = git://github.com/synapsestudios/kohana-notices
 [submodule "modules/email"]
 	path = modules/email
-	url = git://github.com/synapsestudios/kohana-email.git
+	url = git://github.com/synapsestudios/kohana-email
 [submodule "modules/csrf"]
 	path = modules/csrf
-	url = git://github.com/synapsestudios/kohana-csrf.git
-[submodule "modules/yform"]
-	path = modules/yform
-	url = git://github.com/synapsestudios/kohana-yform.git
+	url = git://github.com/synapsestudios/kohana-csrf
 [submodule "modules/kostache"]
 	path = modules/kostache
 	url = git://github.com/synapsestudios/kohana-kostache
 [submodule "modules/minion"]
 	path = modules/minion
-	url = git://github.com/synapsestudios/kohana-minion.git
+	url = git://github.com/synapsestudios/kohana-minion
 [submodule "httpdocs/media/3rdparty/twitter-bootstrap"]
 	path = httpdocs/media/3rdparty/twitter-bootstrap
-	url = git://github.com/vwall/compass-twitter-bootstrap.git
+	url = git://github.com/vwall/compass-twitter-bootstrap
 [submodule "modules/acl"]
 	path = modules/acl
-	url = git@github.com:synapsestudios/kohana-acl.git
+	url = git://github.com/synapsestudios/kohana-acl
 [submodule "modules/task-migrations"]
 	path = modules/task-migrations
-	url = git://github.com/synapsestudios/kohana-task-migrations.git
+	url = git://github.com/synapsestudios/kohana-task-migrations
 [submodule "modules/task-upgrade"]
 	path = modules/task-upgrade
-	url = git://github.com/synapsestudios/kohana-task-upgrade.git
+	url = git://github.com/synapsestudios/kohana-task-upgrade
+[submodule "modules/synform"]
+	path = modules/synform
+	url = git://github.com/synapsestudios/kohana-synform

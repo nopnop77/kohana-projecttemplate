@@ -10,4 +10,11 @@ class Kostache extends Kohana_Kostache
 	 */
 	public function _initialize() {}
 
+	public function __construct($template = NULL, array $partials = NULL)
+	{
+		parent::__construct($template, $partials);
+
+		$this->_initialize();
+	}
+
 }
