@@ -31,15 +31,15 @@
 [submodule "modules/minion"]
 	path = modules/minion
 	url = git://github.com/synapsestudios/kohana-minion.git
-[submodule "modules/minion-tasks-migrations"]
-	path = modules/minion-tasks-migrations
-	url = git://github.com/synapsestudios/minion-tasks-migrations.git
-[submodule "modules/minion-tasks-upgrade"]
-	path = modules/minion-tasks-upgrade
-	url = git://github.com/synapsestudios/minion-tasks-upgrade.git
 [submodule "httpdocs/media/3rdparty/twitter-bootstrap"]
 	path = httpdocs/media/3rdparty/twitter-bootstrap
 	url = git://github.com/vwall/compass-twitter-bootstrap.git
 [submodule "modules/acl"]
 	path = modules/acl
 	url = git@github.com:synapsestudios/kohana-acl.git
+[submodule "modules/task-migrations"]
+	path = modules/task-migrations
+	url = git://github.com/synapsestudios/kohana-task-migrations.git
+[submodule "modules/task-upgrade"]
+	path = modules/task-upgrade
+	url = git://github.com/synapsestudios/kohana-task-upgrade.git
