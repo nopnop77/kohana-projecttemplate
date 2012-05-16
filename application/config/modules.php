@@ -2,9 +2,8 @@
 
 return array(
 	'auth'               => MODPATH.'auth',
-	'csrf'               => MODPATH.'csrf',
 	'database'           => MODPATH.'database',
-	'email'              => MODPATH.'email',
+	'mail'               => MODPATH.'mail',
 	'image'              => MODPATH.'image',
 	'kostache'           => MODPATH.'kostache',
 	'minion'             => MODPATH.'minion',
@@ -12,5 +11,5 @@ return array(
 	'task-upgrade'       => MODPATH.'task-upgrade',
 	'notices'            => MODPATH.'notices',
 	'orm'                => MODPATH.'orm',
-	'yform'              => MODPATH.'yform',
+	'synform'            => MODPATH.'synform',
 );
