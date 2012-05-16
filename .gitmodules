@@ -16,9 +16,6 @@
 [submodule "modules/notices"]
 	path = modules/notices
 	url = git://github.com/synapsestudios/kohana-notices
-[submodule "modules/email"]
-	path = modules/email
-	url = git://github.com/synapsestudios/kohana-email
 [submodule "modules/kostache"]
 	path = modules/kostache
 	url = git://github.com/synapsestudios/kohana-kostache
@@ -40,3 +37,6 @@
 [submodule "modules/synform"]
 	path = modules/synform
 	url = git://github.com/synapsestudios/kohana-synform
+[submodule "modules/mail"]
+	path = modules/mail
+	url = git://github.com/synapsestudios/kohana-mail
