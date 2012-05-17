@@ -40,15 +40,6 @@ class Migration_Default_20110204130515 extends Minion_Migration_Base {
 	 */
 	public function down(Database $db)
 	{
-		$db->query(NULL, '
-			ALTER TABLE `pvt_roles_users`
-			DROP FOREIGN KEY `fk_pvt_roles_users_user_id`,
-			DROP FOREIGN KEY `fk_pvt_roles_users_role_id`;
-		');
-
-		$db->query(NULL, '
-			ALTER TABLE `user_tokens`
-			DROP FOREIGN KEY `fk_user_tokens_user_id`;
-		');
+		
 	}
 }

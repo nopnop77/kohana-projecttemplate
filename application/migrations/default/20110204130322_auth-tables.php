@@ -69,9 +69,6 @@ class Migration_Default_20110204130322 extends Minion_Migration_Base {
 	 */
 	public function down(Database $db)
 	{
-		$db->query(NULL, 'DROP TABLE pvt_roles_users');
-		$db->query(NULL, 'DROP TABLE roles');
-		$db->query(NULL, 'DROP TABLE users');
-		$db->query(NULL, 'DROP TABLE user_tokens');
+
 	}
 }
