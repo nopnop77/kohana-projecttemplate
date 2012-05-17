@@ -6,4 +6,5 @@ abstract class Abstract_Controller_Public extends Abstract_Controller_Base {
 	{
 		return parent::_policies();
 	}
+
 }

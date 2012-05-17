@@ -1,21 +1,15 @@
 <?php defined('SYSPATH') OR die('No direct script access.');
-/**
- * Contains methods useful to all views in an application.
- *
- * @package    Synapse
- * @category   Kostache
- * @author     Synapse Studios
- */
-abstract class Abstract_View_Base extends Kostache_Layout
-{
+
+abstract class Abstract_View_Base extends Kostache_Layout {
+
 	protected $_layout = 'layout/default';
 	protected $_assets;
 
 	public function __construct($template = NULL, array $partials = NULL)
 	{
-		parent::__construct($template, $partials);
-
 		$this->_assets = new Assets;
+
+		parent::__construct($template, $partials);
 	}
 
 	/**

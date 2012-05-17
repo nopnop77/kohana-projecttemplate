@@ -8,4 +8,5 @@ abstract class Abstract_Controller_App extends Abstract_Controller_Base {
 			'Policy_User_Authenticated' => array(),
 		));
 	}
+
 }
