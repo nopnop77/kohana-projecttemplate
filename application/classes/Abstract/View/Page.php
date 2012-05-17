@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') OR die('No direct script access.');
 
-abstract class Abstract_View_Page extends Abstract_View_Layout {
+abstract class Abstract_View_Page extends Abstract_View_Base {
 
 	public $title = 'Page';
 
@@ -100,4 +100,5 @@ abstract class Abstract_View_Page extends Abstract_View_Layout {
 			$this->assets_body()
 		), $content);
 	}
+
 }
