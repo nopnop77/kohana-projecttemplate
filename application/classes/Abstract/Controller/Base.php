@@ -36,7 +36,7 @@ abstract class Abstract_Controller_Base extends Controller {
 
 		try
 		{
-			$this->view = Kostache::factory('page/'.$controller_path);
+			$this->view = Kostache::factory('Page/'.$controller_path);
 		}
 		catch (Kohana_Exception $x)
 		{
