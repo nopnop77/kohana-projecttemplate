@@ -44,7 +44,7 @@ abstract class Abstract_View_Page extends Abstract_View_Base {
 
 		foreach (Notices::get() as $array)
 		{
-			$message_path = $array['type'].'.'.$array['key'];
+			$message_path = $array['key'].'.'.$array['type'];
 			$data[] = array(
 				'type'     => $array['type'],
 				'key'      => $array['key'],
