@@ -71,13 +71,19 @@ class Assets {
 		$array = array();
 		foreach ($assets as $asset)
 		{
+			$attributes = (isset($asset[4])) ? $asset[4] : NULL;
+
 			if ($asset[0] == 'script')
 			{
-				$array[] = HTML::script($asset[1]);
+				$array[] = HTML::script($asset[1], $attributes);
 			}
 			elseif ($asset[0] == 'style')
 			{
-				$array[] = HTML::style($asset[1]);
+				$array[] = HTML::style($asset[1], $attributes);
+			}
+			elseif ($asset[0] == 'javascript')
+			{
+				$array[] = '<script type="text/javascript"'.HTML::attributes($attributes).'>'.$asset[1].'</script>';
 			}
 		}
 
