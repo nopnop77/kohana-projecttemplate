@@ -24,7 +24,7 @@
 	url = git://github.com/synapsestudios/kohana-minion
 [submodule "httpdocs/media/3rdparty/twitter-bootstrap"]
 	path = httpdocs/media/3rdparty/twitter-bootstrap
-	url = git://github.com/vwall/compass-twitter-bootstrap
+	url = git://github.com/synapsestudios/compass-twitter-bootstrap
 [submodule "modules/acl"]
 	path = modules/acl
 	url = git://github.com/synapsestudios/kohana-acl
