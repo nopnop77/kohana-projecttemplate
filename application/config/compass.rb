@@ -1,5 +1,5 @@
-css_dir = "media/css"
-sass_dir = "media/scss"
+css_dir = "_media/css"
+sass_dir = "_media/scss"
 output_style = :compressed
-images_dir = "media/images"
+images_dir = "_media/images"
 relative_assets = true

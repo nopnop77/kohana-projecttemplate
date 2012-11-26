@@ -5,12 +5,12 @@
 require.config({
 	baseUrl: Kohana.media_url + "js/app",
 	paths: {
-		underscore: "../../3rdparty/underscore",
-		backbone: "../../3rdparty/backbone",
-		mustache: "../../3rdparty/mustache",
-		jquery: "../../3rdparty/require/jquery",
-		text: "../../3rdparty/require/text",
-		json2: "../../3rdparty/json2"
+		underscore: "../../vendor/underscore",
+		backbone: "../../vendor/backbone",
+		mustache: "../../vendor/mustache",
+		jquery: "../../vendor/require/jquery",
+		text: "../../vendor/require/text",
+		json2: "../../vendor/json2"
 	}
 });
 

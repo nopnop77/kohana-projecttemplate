@@ -5,11 +5,11 @@ class Media {
 	public static function url($filepath, $cachebusting = TRUE)
 	{
 		if ( ! $filepath)
-			return URL::base().'media/';
+			return URL::base().'_media/';
 
 		// Only allow caching on production
 		$cachebusting = in_array(Kohana::$environment, array(Kohana::PRODUCTION, KOHANA::STAGING)) ? KOHANA::APP_VERSION : microtime(true);
 
-		return URL::base().'media/'.$filepath.'?'.$cachebusting;
+		return URL::base().'_media/'.$filepath.'?'.$cachebusting;
 	}
 }
