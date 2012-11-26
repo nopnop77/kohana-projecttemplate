@@ -10,9 +10,6 @@
 [submodule "modules/auth"]
 	path = modules/auth
 	url = git://github.com/synapsestudios/kohana-auth
-[submodule "modules/image"]
-	path = modules/image
-	url = git://github.com/synapsestudios/kohana-image
 [submodule "modules/notices"]
 	path = modules/notices
 	url = git://github.com/synapsestudios/kohana-notices
@@ -22,8 +19,8 @@
 [submodule "modules/minion"]
 	path = modules/minion
 	url = git://github.com/synapsestudios/kohana-minion
-[submodule "httpdocs/media/3rdparty/twitter-bootstrap"]
-	path = httpdocs/media/3rdparty/twitter-bootstrap
+[submodule "httpdocs/_media/vendor/twitter-bootstrap"]
+	path = httpdocs/_media/vendor/twitter-bootstrap
 	url = git://github.com/synapsestudios/compass-twitter-bootstrap
 [submodule "modules/acl"]
 	path = modules/acl
@@ -34,9 +31,6 @@
 [submodule "modules/task-upgrade"]
 	path = modules/task-upgrade
 	url = git://github.com/synapsestudios/kohana-task-upgrade
-[submodule "modules/synform"]
-	path = modules/synform
-	url = git://github.com/synapsestudios/kohana-synform
-[submodule "modules/mail"]
-	path = modules/mail
-	url = git://github.com/synapsestudios/kohana-mail
+[submodule "modules/image"]
+	path = modules/image
+	url = git://github.com/synapsestudios/kohana-image

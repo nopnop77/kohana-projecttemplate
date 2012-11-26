@@ -1,9 +1,9 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
 return array(
+	'acl'                => MODPATH.'acl',
 	'auth'               => MODPATH.'auth',
 	'database'           => MODPATH.'database',
-	'mail'               => MODPATH.'mail',
 	'image'              => MODPATH.'image',
 	'kostache'           => MODPATH.'kostache',
 	'minion'             => MODPATH.'minion',
@@ -11,5 +11,4 @@ return array(
 	'task-upgrade'       => MODPATH.'task-upgrade',
 	'notices'            => MODPATH.'notices',
 	'orm'                => MODPATH.'orm',
-	'synform'            => MODPATH.'synform',
 );
