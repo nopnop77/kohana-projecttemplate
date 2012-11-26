@@ -19,3 +19,10 @@ Link to the compare link for the current commit of the code in use on this proje
 
 ## Everything Else
 Link to the download page for any projects used that are not in GitHub
+
+
+```
+Legend
+* = Branch needs updating (usually from develop to master)
++ = New commits available 
+```
