@@ -12,7 +12,7 @@ Link to the compare link for the current commit of the code in use on this proje
 ### *[modules/notices](https://github.com/synapsestudios/kohana-notices/compare/267f317...3.3/develop)
 ### [modules/orm](https://github.com/synapsestudios/kohana-orm/compare/cb4be3a...3.3/master)
 ### *[modules/task-migrations](https://github.com/synapsestudios/kohana-task-migrations/compare/dd992d1...3.3/develop)
-### *[modules/task-upgrade](https://github.com/synapsestudios/kohana-task-upgrade/compare/294c105...3.3/develop)
+### *[modules/task-upgrade](https://github.com/synapsestudios/kohana-task-upgrade/compare/3ec4768c13...3.3/develop)
 
 ### [httpdocs/_media/vendor/twitter-bootstrap](https://github.com/synapsestudios/compass-twitter-bootstrap/compare/be734a5...master)
 
@@ -24,5 +24,5 @@ Link to the download page for any projects used that are not in GitHub
 ```
 Legend
 * = Branch needs updating (usually from develop to master)
-+ = New commits available 
++ = New commits available
 ```
